@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Barheim"
+image: /_site/assets/img/blog-image.png
 date:   2025-09-09 15:08:22 +0800
 categories: jekyll update
 ---

@@ -1,31 +1,74 @@
 ---
 layout: post
 title:  "Stuck in the Present"
+subtitle: "Two friends relive painful memories within the uncanny depths of twisting subway stations in a large, unfamiliar city."
 image: /games/2025/09/09/sitp2.png
-# anim: /images/sitp.gif
 date:   2025-09-09 15:08:22 +0800
 categories: games
+category: games
+tags: 
+- "Psychological"
+- "Story"
+author: "Dusk Wave Arts"
+paginate: true
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-Jekyll requires blog post files to be named according to the following format:
+# Involvement
 
-`YEAR-MONTH-DAY-title.MARKUP`
+## Role 
+Senior Game Engineer
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+## Tools
+* Unity3D
+* PlasticSCM (UVCS)
+* Azure DevOps
+* Jenkins
+* FMOD
+* Articy
+* Miro
+* Coda
 
-Jekyll also offers powerful support for code snippets:
+## Involvement Summary
+I was accountable for the implementation of features, tools for other departments, audio/SFX implementations, Save/Load system and content application.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+### Feature implementation and Reusable Codes
+- Data Persistence
+	- I implemented a full Save/Load system that is scalable and fully integrated with of the features of the game. It uses JSON as its file type and have an option for encryption. It also has some backup systems in case of file corruption.
+- Escalator system
+	- I implemented a fully working escalator in the game that's can be used by NPCs
+- Navmesh links
+	- For player & NPC to be able to jump from one navmesh to another.
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+
+# Game Information
+
+Just as Faye and Rich’s painful memories resurface, the two friends are ensnared in the distorted corridors of a decrepit subway station beneath a city still foreign to Faye. To find any path through, they need to decipher all that they have so desperately tried to forget.
+
+> Check it out on [Steam][steam-link] &
+> [Dusk Wave Arts] [dwa-link]
+
+# Illustration and Reflection
+![Image](/games/2025/09/09/sitp3.gif)
+Discover and illustrate meaningful objects and people to decipher Faye’s history.
+
+# Living Memories
+![Image](/games/2025/09/09/sitp4.gif)
+Explore living memories of Faye and Rich’s past as they manifest around the stations.
+
+# Choice and Change
+![Image](/games/2025/09/09/sitp.gif)
+
+Forge a new relationship between Faye and Rich as they collide with their hidden traumas and recent frictions.
+
+# Dissipation of Agency
+![Image](/games/2025/09/09/sitp5.gif)
+Navigate Faye’s anxieties as distance between her and Rich propagates greater dangers around the station.
+
+# Close-up Clues
+![Image](/games/2025/09/09/sitp2.gif)
+
+Interact with objects and structures more intimately to decipher their connection to Faye’s past, or the distortion of the station.
+
+[steam-link]: https://store.steampowered.com/app/2980980/Stuck_in_the_Present/
+[dwa-link]: https://duskwavearts.com/

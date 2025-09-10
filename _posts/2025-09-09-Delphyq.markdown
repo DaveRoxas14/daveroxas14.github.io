@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Delphyq"
-image: /images/delphyq2.jpg
+image: ./images/delphyq2.jpg
 # anim:  /images/sitp.gif
 date:   2021-09-1 15:08:22 +0800
 categories: games

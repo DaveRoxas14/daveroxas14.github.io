@@ -6,15 +6,7 @@ image: /games/2024/10/22/barheim.jpg
 date:   2024-10-22 15:08:22 +0800
 categories: games
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
-
-Jekyll requires blog post files to be named according to the following format:
-
-`YEAR-MONTH-DAY-title.MARKUP`
-
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
+BARHEIM is a single-player, 3D Time Management Tower Defense where players experience the chaos of mixing drinks and maintaining a bar while defending themselves from thirsty Vikings! Become the starry-eyed bartender of the finest tavern in the nine realms—BARHEIM! Learn different combinations of brews. Acquire device upgrades to tip the scales and survive even the wildest rushes of Viking hordes! Load your crafted drinks onto the Brewcannøn and defend yourself from charging armies commanded by the vengeful Queen Yrsa and her chieftains.
 
 {% highlight ruby %}
 def print_hi(name)

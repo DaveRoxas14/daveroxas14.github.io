@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Barheim"
-image: /assets/img/barheim.jpg
+image: /games/2024/10/22/barheim.jpg
 # anim: /images/sitp.gif
 date:   2024-10-22 15:08:22 +0800
 categories: games

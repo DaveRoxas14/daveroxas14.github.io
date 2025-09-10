@@ -2,7 +2,7 @@
 layout: post
 title:  "Stuck in the Present"
 image: /images/sitp2.png
-anim: /images/sitp.gif
+# anim: /images/sitp.gif
 date:   2025-09-09 15:08:22 +0800
 categories: games
 ---

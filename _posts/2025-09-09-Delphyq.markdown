@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Delphyq"
-image: <img src="{{ site.baseurl }}/images/delphyq2.jpg">
-anim:  <img src="{{ site.baseurl }}/images/sitp.gif">
+image: /images/delphyq2.jpg
+# anim:  /images/sitp.gif
 date:   2021-09-1 15:08:22 +0800
 categories: games
 ---

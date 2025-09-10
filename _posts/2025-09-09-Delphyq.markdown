@@ -1,31 +1,70 @@
 ---
 layout: post
-title:  "Delphyq"
+title:  "DELPHYQ"
 image: /games/2021/09/01/delphyq2.jpg
 # anim:  /images/sitp.gif
 date:   2021-09-1 15:08:22 +0800
 categories: games
+subtitle: "Delphyq offers a unique Real-time Strategy & Tactics experience, that puts you in the seat of the Mastermind"
+description: Delphyq offers a unique Real-time Strategy & Tactics experience, that puts you in the seat of the Mastermind.
+category: games
+tags: 
+- Turn-Based
+- Tactical
+author: "Dusk Wave Arts"
+paginate: false
+role: "Junior Game Engineer <br>Quality Assurance"
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+> Check out on [Steam][steam-link] &
+> [Trailer on YouTube] [yt-link]
 
-Jekyll requires blog post files to be named according to the following format:
+# Involvement
+## Role 
+<p>{{page.role}}</p>
 
-`YEAR-MONTH-DAY-title.MARKUP`
+## Tools
+- Unity3D
+- UniRX
+- BehaviorDesigner
+- Git
+- FMOD
+- Notion
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+## Involvement Summary
 
-Jekyll also offers powerful support for code snippets:
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+### Feature implementation
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+### Content implementation
+
+
+
+# Game Information
+Delphyq is a real-time tactics game, one that puts you in the role of a mastermind in command of an elite group of combatants known as the Operatives. Every move, every decision, every action, and reaction you make will influence and decide the outcome of each encounter you will face along the way.
+
+One thing that separates Delphyq from the rest of the strategy and tactics crowd is the way it simulates real combat. Delphyq is not a turn-based game; despite it having a pause mechanic, combat is still handled in real-time. The game’s waypoints, look direction and dynamic cover systems open doors for intense, strategic, and memorable encounters. Advanced functions such as GoCodes and Operative skills provide access to deeper tactical maneuvers to deal with the game’s extremely intelligent utility-based AI enemies.
+
+Each AI unit functions in conjunction with its environment; depending on the situation, it will also try to coordinate with other AI in the field and will attempt to flank the Operatives and/or engage them through the use of cover.
+
+> Check it out on [Steam][steam-link] &
+> [Dusk Wave Arts website] [dwa-link]
+
+# REAL TACTICS IN REAL TIME
+In Delphyq, combat does not happen in turns. The enemy won’t wait until you’re done firing. That’s why the game provides you access to a robust waypoint and command system which allows you to perform real life military tactics and maneuvers, like Slice The Pie, Flanking, Suppressive Fire, and more.
+
+# TAKE COVER
+The battlefield is an ally to the mindful. Delphyq’s Dynamic Cover System guarantees that nearby cover is always available wherever units may be, allowing you to keep your Operatives alive as they take down the enemy, one area at a time.
+
+# BE THE MASTERMIND
+Analyze. Plan. Execute. Plan from the top and work your way to the bottom with Delphyq’s engaging Overworld and Corkboard with the Intel planning system.
+
+# WE DON’T PLAY WITH DICE
+There’s no such thing as luck in Delphyq. Every hit, miss, victory and defeat are all dictated by your strategy, not a random number generator.
+
+# NOTHING IS WHAT IT SEEMS
+Intrigue and plot twists abound! Follow the story of the ragtag militant team - Operatives, as they commit to the daunting task of taking down the corrupt corporation called 'The Balance'. Witness as the story unfolds with one revelation after another, all culminating into an unexpected conclusion.
+
+[steam-link]: https://store.steampowered.com/app/1150820/Delphyq/
+[dwa-link]: https://duskwavearts.com/
+[yt-link]: https://youtu.be/WyATX2cfBk0

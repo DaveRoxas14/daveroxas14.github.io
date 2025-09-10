@@ -15,8 +15,10 @@ author: "Dusk Wave Arts"
 paginate: false
 role: "Senior Game Engineer"
 ---
-# Involvement
+> Check out on [Steam][steam-link] &
+> [Trailer on YouTube] [yt-link]
 
+# Involvement
 ## Role 
 <p>{{page.role}}</p>
 
@@ -31,9 +33,12 @@ role: "Senior Game Engineer"
 - Clickup
 
 ## Involvement Summary
-I was accountable for the implementation of features, tools for other departments, audio/SFX implementations, Save/Load system and content application.
 
 ### Feature implementation and Reusable Codes
+
+### Tools for Other departments
+- I have added several tools to help ease the development process and make other department's work much more efficient.
+- 
 
 # Game Information
 BARHEIM is a single-player, 3D Time Management Tower Defense where players experience the chaos of mixing drinks and maintaining a bar while defending themselves from thirsty Vikings! Become the starry-eyed bartender of the finest tavern in the nine realms—BARHEIM! Learn different combinations of brews. Acquire device upgrades to tip the scales and survive even the wildest rushes of Viking hordes! Load your crafted drinks onto the Brewcannøn and defend yourself from charging armies commanded by the vengeful Queen Yrsa and her chieftains.
@@ -41,5 +46,23 @@ BARHEIM is a single-player, 3D Time Management Tower Defense where players exper
 > Check it out on [Steam][steam-link] &
 > [Dusk Wave Arts website] [dwa-link]
 
+# Mixing Maiden!
+Serve a variety of mixed, shaken, and chilled brews to fulfill orders and thwart the attacks of your Viking patrons!
+
+# Brewcannøn Blaster
+Take aim and blast orders from the Brewcannøn to halt vicious Vikings and their imposing war chiefs.
+
+# Divine Favour
+Successfully defend Barheim from Queen Yrsa’s forces and receive useful upgrades to the tavern and its many contraptions.
+
+# Contraption Queen
+Work with each of the devices at your disposal! If they’re moving too slow for your speed, slap ‘em around a ‘lil and they’ll push out your concoction quicker!
+
+# War Chief Mayhem
+Keep your menu close and mix together tasty orders to take down each of Queen Yrsa’s war chiefs!
+
+Serve Responsively!
+
 [steam-link]: https://store.steampowered.com/app/2980970/BARHEIM/
 [dwa-link]: https://duskwavearts.com/barheim/
+[yt-link]: https://youtu.be/fZHvytFz5vM

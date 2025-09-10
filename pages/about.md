@@ -7,7 +7,7 @@ description: Some description.
 permalink: /about/
 ---
 
-<img class="img-rounded" src="images/me.jpg" alt="Dave Louie Roxas" width="200">
+<img src="images/me.jpg" alt="Dave Louie Roxas">
 
 # About
 
@@ -21,18 +21,17 @@ Aside from my technical skills, I am also a strong team player and thrive in col
 
 # Experiences
 
- ## Dusk Wave Arts
- 8 years 2 months
+## Dusk Wave Arts
+Total of 8 years 2 months
  
- ### Senior Game Engineer
- March 2024 - Present (1 year 7 months)
+### Senior Game Engineer
+March 2024 (1 year 7 months)
  
- ### Game Engineer
-
- November 2022 - March 2024 (1 year 5 months)
+### Game Engineer
+November 2022 - March 2024 (1 year 5 months)
  
- ### Quality Assurance
- September 2017 - November 2022 (5 years 3 months)
+### Quality Assurance
+September 2017 - November 2022 (5 years 3 months)
  
- ### Junior Game Developer
- August 2017 - November 2022 (5 years 4 months
+### Junior Game Developer
+August 2017 - November 2022 (5 years 4 months)

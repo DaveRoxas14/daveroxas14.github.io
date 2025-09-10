@@ -36,9 +36,20 @@ I was accountable for the implementation of features, tools for other department
 	- I implemented a full Save/Load system that is scalable and fully integrated with of the features of the game. It uses JSON as its file type and have an option for encryption. It also has some backup systems in case of file corruption.
 - Escalator system
 	- I implemented a fully working escalator in the game that's can be used by NPCs
-- Navmesh links
+- Navmesh links Implementation
 	- For player & NPC to be able to jump from one navmesh to another.
+- Feature debugs
+	- logs and test options for all departments. 
 
+### Tools for Other departments
+- I have added several tools to help ease the development process and make other department's work much more efficient.
+
+### Audio implementation with FMOD
+- I lead the implementation of SFX/BGM/AMB with the help and guidance of our own Audio Designers that created such masterpieces with FMOD.
+- Sample works coming soon!
+
+### Content implementation
+- I helped the Designers implement content story and cutscenes as clean as possible for easier debug.
 
 
 # Game Information
@@ -46,7 +57,7 @@ I was accountable for the implementation of features, tools for other department
 Just as Faye and Rich’s painful memories resurface, the two friends are ensnared in the distorted corridors of a decrepit subway station beneath a city still foreign to Faye. To find any path through, they need to decipher all that they have so desperately tried to forget.
 
 > Check it out on [Steam][steam-link] &
-> [Dusk Wave Arts] [dwa-link]
+> [Dusk Wave Arts website] [dwa-link]
 
 # Illustration and Reflection
 ![Image](/games/2025/09/09/sitp3.gif)

@@ -2,44 +2,45 @@
 layout: post
 title:  "Stuck in the Present"
 subtitle: "Two friends relive painful memories within the uncanny depths of twisting subway stations in a large, unfamiliar city."
+description: >-
+ Two friends relive painful memories within the uncanny depths of twisting subway stations in a large, unfamiliar city.
 image: /games/2025/09/09/sitp2.png
 date:   2025-09-09 15:08:22 +0800
 categories: games
 category: games
 tags: 
-- "Psychological"
-- "Story"
+- psychological
+- story
 author: "Dusk Wave Arts"
-paginate: true
+paginate: false
+role: "Senior Game Engineer"
 ---
+> Check out on [Steam][steam-link] &
+> [Trailer on YouTube] [yt-link]
 
 # Involvement
-
 ## Role 
-Senior Game Engineer
+<p>{{page.role}}</p>
 
 ## Tools
-* Unity3D
-* PlasticSCM (UVCS)
-* Azure DevOps
-* Jenkins
-* FMOD
-* Articy
-* Miro
-* Coda
+- Unity3D
+- PlasticSCM (UVCS)
+- Azure DevOps
+- Jenkins
+- FMOD
+- Articy
+- Miro
+- Coda
 
 ## Involvement Summary
 I was accountable for the implementation of features, tools for other departments, audio/SFX implementations, Save/Load system and content application.
 
 ### Feature implementation and Reusable Codes
-- Data Persistence
-	- I implemented a full Save/Load system that is scalable and fully integrated with of the features of the game. It uses JSON as its file type and have an option for encryption. It also has some backup systems in case of file corruption.
-- Escalator system
-	- I implemented a fully working escalator in the game that's can be used by NPCs
-- Navmesh links Implementation
-	- For player & NPC to be able to jump from one navmesh to another.
-- Feature debugs
-	- logs and test options for all departments. 
+- Data Persistence - I implemented a full Save/Load system that is scalable and fully integrated with of the features of the game. It uses JSON as its file type and have an option for encryption. It also has some backup systems in case of file corruption.	
+- Escalator system - I implemented a fully working escalator in the game that's can be used by NPCs
+- Navmesh links Implementation - For player & NPC to be able to jump from one navmesh to another.
+- Feature debugs - logs and test options for all departments. 
+	
 
 ### Tools for Other departments
 - I have added several tools to help ease the development process and make other department's work much more efficient.
@@ -83,3 +84,4 @@ Interact with objects and structures more intimately to decipher their connectio
 
 [steam-link]: https://store.steampowered.com/app/2980980/Stuck_in_the_Present/
 [dwa-link]: https://duskwavearts.com/
+[yt-link]: https://youtu.be/IMNZuznmC4M

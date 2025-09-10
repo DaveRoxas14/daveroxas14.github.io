@@ -2,23 +2,18 @@ name: Dave Roxas' Portfolio!
 title: Dave Roxas' Portfolio | These are the games I've worked on with great people!
 description: These are the games I've been a part with!
 tags:
-  - blog
-  - template
+  - dev
+  - gamedev
   - jekyll
   - theme
   - netlify
 email: roxasdavelouie@yahoo.com
-# disqus_username: disqus_username
 show_hero: true
 menu:
   - title: Home
     url: /
   - title: About
     url: /about
-  - title: Contact
-    url: /contact
-  - title: Feed
-    url: /feed.xml
 
 # Social Media Settings
 # Remove the item if you don't need it
@@ -70,6 +65,12 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-paginate-content
+permalink: /:title/
+collections:
+  authors:
+    output: true
+paginate_path: "/page/:num/"
+use_logo: false
 
 # Exclude from processing.
 # The following items will not be processed, by default.

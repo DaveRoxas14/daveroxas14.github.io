@@ -1,23 +1,45 @@
 ---
 layout: post
 title:  "Barheim"
+subtitle: "Experience the chaos of mixing drinks and maintaining a bar while defending themselves from thirsty Vikings!"
+description: Experience the chaos of mixing drinks and maintaining a bar while defending themselves from thirsty Vikings!
 image: /games/2024/10/22/barheim.jpg
 # anim: /images/sitp.gif
 date:   2024-10-22 15:08:22 +0800
 categories: games
+category: games
+tags: 
+- strategy
+- casual
+author: "Dusk Wave Arts"
+paginate: false
+role: "Senior Game Engineer"
 ---
+# Involvement
+
+## Role 
+<p>{{page.role}}</p>
+
+## Tools
+- Unity3D
+- PlasticSCM (UVCS)
+- Azure DevOps
+- Jenkins
+- FMOD
+- Articy
+- Miro
+- Clickup
+
+## Involvement Summary
+I was accountable for the implementation of features, tools for other departments, audio/SFX implementations, Save/Load system and content application.
+
+### Feature implementation and Reusable Codes
+
+# Game Information
 BARHEIM is a single-player, 3D Time Management Tower Defense where players experience the chaos of mixing drinks and maintaining a bar while defending themselves from thirsty Vikings! Become the starry-eyed bartender of the finest tavern in the nine realms—BARHEIM! Learn different combinations of brews. Acquire device upgrades to tip the scales and survive even the wildest rushes of Viking hordes! Load your crafted drinks onto the Brewcannøn and defend yourself from charging armies commanded by the vengeful Queen Yrsa and her chieftains.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+> Check it out on [Steam][steam-link] &
+> [Dusk Wave Arts website] [dwa-link]
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+[steam-link]: https://store.steampowered.com/app/2980970/BARHEIM/
+[dwa-link]: https://duskwavearts.com/barheim/

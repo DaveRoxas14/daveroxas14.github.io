@@ -53,7 +53,7 @@ sass:
   
 # Advanced Settings
 url: ""
-baseurl: "/davidchu.github.io"
+baseurl: ""
 
 # Build settings
 markdown: kramdown

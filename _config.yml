@@ -1,13 +1,3 @@
-
-# title: Dave Louie Roxas' Portfolio!
-# email: roxasdavelouie@yahoo.com
-#description: >- # this means to ignore newlines until "baseurl:"
-#  These are the games I've been a part with!
-# baseurl: "" # the subpath of your site, e.g. /blog
-# url: "" # the base hostname & protocol for your site, e.g. http://example.com
-# twitter_username: davidzchu
-# github_username:  daveroxas14
-
 name: Dave Roxas' Portfolio!
 title: Dave Roxas' Portfolio | These are the games I've worked on with great people!
 description: These are the games I've been a part with!
@@ -60,9 +50,15 @@ paginate_content:
 # SASS
 sass:
   style: compressed
-
+  
+# Advanced Settings
+url: ""
+baseurl: ""
 
 # Build settings
+markdown: kramdown
+highlighter: rouge
+use_logo: false
 theme: jekflix
 plugins:
   - jekyll-feed

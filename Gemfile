@@ -17,6 +17,12 @@ gem "github-pages"
 
 gem "jekflix"
 
+gem "kramdown"
+gem "kramdown-parser-gfm"
+gem "rouge"
+gem "jekyll-paginate"
+gem "jekyll-paginate-content"
+
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"

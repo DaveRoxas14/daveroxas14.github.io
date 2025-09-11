@@ -17,22 +17,27 @@ role: "Senior Game Engineer"
 ---
 > Check out on [Steam][steam-link] &
 > [Trailer on YouTube] [yt-link]
+<div style="display: flex; justify-content: space-between;">
 
-# Involvement
-## Role 
-<p>{{page.role}}</p>
+  <div style="flex: 1; padding-right: 20px;">
+    <h2>Role</h2>
+	<p>{{page.role}}</p>
+  </div>
 
-## Tools
-- Unity3D
-- Game Creator 2
-- PlasticSCM (UVCS)
-- Azure DevOps
-- Jenkins
-- FMOD
-- Articy
-- Miro
-- Coda
+  <div style="flex: 1; padding-left: 20px;">
+    <h2>Tools</h2>
+    <p><li>Unity3D</li>
+	<li>Game Creator 2</li>
+	<li>PlasticSCM (UVCS)</li>
+	<li>Azure DevOps</li>
+	<li>Jenkins</li>
+	<li>FMOD</li>
+	<li>Articy</li>
+	<li>Miro</li>
+	<li>Coda</li></p>
+  </div>
 
+</div>
 ## Involvement Summary
 I was accountable for the implementation of features, tools for other departments, audio/SFX implementations, Save/Load system and content application.
 

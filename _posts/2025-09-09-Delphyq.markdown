@@ -17,28 +17,36 @@ role: "Junior Game Engineer <br>Quality Assurance"
 ---
 > Check out on [Steam][steam-link] &
 > [Trailer on YouTube] [yt-link]
+<div style="display: flex; justify-content: space-between;">
 
-# Involvement
-## Role 
-<p>{{page.role}}</p>
+  <div style="flex: 1; padding-right: 20px;">
+    <h2>Role</h2>
+	<p>{{page.role}}</p>
+  </div>
 
-## Tools
-- Unity3D
-- UniRX
-- BehaviorDesigner
-- Git
-- FMOD
-- Notion
+  <div style="flex: 1; padding-left: 20px;">
+    <h2>Tools</h2>
+    <p><li>Unity3D</li>
+	<li>UniRX</li>
+	<li>BehaviorDesigner</li>
+	<li>Git</li>
+	<li>FMOD</li>
+	<li>Notion</li></p>
+  </div>
 
+</div>
 ## Involvement Summary
+This was my first project in the game development industry, where I contributed through prototyping, implementing small features, and supporting various foundational tasks. It was through this experience that I discovered my passion for game development—a passion that continues to grow as I advance in my career.
 
+### Prototyping
+While going through training, I was doing some small undisclosed prototypes that helped me understand the processes and coding principle of this industry. I was trained by talented and patient people that I still look up to these days.
+- **Corkboard prototypes** - I was one of the engineers that did a prototype for our mission select screens. I learned a lot about the UI/UX principles that still being useful these days.
+![corkboard](/games/2021/09/01/corkboard.gif)
+- **UI Notifications system** - I created a notification messaging system that gives players some info about the statuses in game. This is one of the first times I utilized **UniRX**, a reactive solution for **C#** unity.  
+- **Various Small Feature Implementation** - I was responsible of implementing small tasks like reactive UI, UI implementation, setting up levels, and loading screens.
 
-### Feature implementation
-
-
-### Content implementation
-
-
+### Quality Assurance
+Since I joined the company with such a small team, I also served as the **Junior QA** for this project. I learn fundamentals of quality assurance by means of **error reporting** and **documentations**. This exposed me to production tools like **Notion**, **Clickup**, and **Atlassian tools**.
 
 # Game Information
 Delphyq is a real-time tactics game, one that puts you in the role of a mastermind in command of an elite group of combatants known as the Operatives. Every move, every decision, every action, and reaction you make will influence and decide the outcome of each encounter you will face along the way.
@@ -46,23 +54,36 @@ Delphyq is a real-time tactics game, one that puts you in the role of a mastermi
 One thing that separates Delphyq from the rest of the strategy and tactics crowd is the way it simulates real combat. Delphyq is not a turn-based game; despite it having a pause mechanic, combat is still handled in real-time. The game’s waypoints, look direction and dynamic cover systems open doors for intense, strategic, and memorable encounters. Advanced functions such as GoCodes and Operative skills provide access to deeper tactical maneuvers to deal with the game’s extremely intelligent utility-based AI enemies.
 
 Each AI unit functions in conjunction with its environment; depending on the situation, it will also try to coordinate with other AI in the field and will attempt to flank the Operatives and/or engage them through the use of cover.
-
+&nbsp;<video loop="true" muted="true" autoplay="true">
+	<source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1150820/extras/1454396bae454512037d468c6c22374d.webm">
+</video> <br/>
 > Check it out on [Steam][steam-link] &
 > [Dusk Wave Arts website] [dwa-link]
 
 # REAL TACTICS IN REAL TIME
+&nbsp;<video loop="true" muted="true" autoplay="true">
+	<source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1150820/extras/fb8f06ac47f730feb856b40d57723bc5.webm">
+</video> <br/>
 In Delphyq, combat does not happen in turns. The enemy won’t wait until you’re done firing. That’s why the game provides you access to a robust waypoint and command system which allows you to perform real life military tactics and maneuvers, like Slice The Pie, Flanking, Suppressive Fire, and more.
 
 # TAKE COVER
+&nbsp;<video loop="true" muted="true" autoplay="true">
+	<source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1150820/extras/b49281a8017599eed4a7e2e68aecce90.webm">
+</video> <br/>
 The battlefield is an ally to the mindful. Delphyq’s Dynamic Cover System guarantees that nearby cover is always available wherever units may be, allowing you to keep your Operatives alive as they take down the enemy, one area at a time.
 
 # BE THE MASTERMIND
+![corkboard](https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1150820/extras/be86a0f6a00efc2c3bf04df4311f1e9a.avif?t=1679886007)
 Analyze. Plan. Execute. Plan from the top and work your way to the bottom with Delphyq’s engaging Overworld and Corkboard with the Intel planning system.
 
 # WE DON’T PLAY WITH DICE
+&nbsp;<video loop="true" muted="true" autoplay="true">
+	<source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1150820/extras/47bb45231b94824692446f408d5c966e.webm">
+</video> <br/>
 There’s no such thing as luck in Delphyq. Every hit, miss, victory and defeat are all dictated by your strategy, not a random number generator.
 
 # NOTHING IS WHAT IT SEEMS
+![Mastermind](https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1150820/extras/b4d547558f5e34c5d0893268811d427d.avif?t=1679886007)
 Intrigue and plot twists abound! Follow the story of the ragtag militant team - Operatives, as they commit to the daunting task of taking down the corrupt corporation called 'The Balance'. Witness as the story unfolds with one revelation after another, all culminating into an unexpected conclusion.
 
 [steam-link]: https://store.steampowered.com/app/1150820/Delphyq/

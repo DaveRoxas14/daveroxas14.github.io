@@ -4,7 +4,6 @@ title:  "Barheim"
 subtitle: "Experience the chaos of mixing drinks and maintaining a bar while defending themselves from thirsty Vikings!"
 description: Experience the chaos of mixing drinks and maintaining a bar while defending themselves from thirsty Vikings!
 image: /games/2024/10/22/barheim.jpg
-# anim: /images/sitp.gif
 date:   2024-10-22 15:08:22 +0800
 categories: games
 category: games
@@ -17,39 +16,44 @@ role: "Senior Game Engineer"
 ---
 > Check out on [Steam][steam-link] &
 > [Trailer on YouTube] [yt-link]
+<div style="display: flex; justify-content: space-between;">
 
-# Involvement
-## Role 
-<p>{{page.role}}</p>
+  <div style="flex: 1; padding-right: 20px;">
+    <h2>Role</h2>
+	<p>{{page.role}}</p>
+  </div>
 
-## Tools
-- Unity3D
-- PlasticSCM (UVCS)
-- Azure DevOps
-- Jenkins
-- FMOD
-- Articy
-- Miro
-- Clickup
+  <div style="flex: 1; padding-left: 20px;">
+    <h2>Tools</h2>
+    <p><li>Unity3D</li>
+	<li>PlasticSCM (UVCS)</li>
+	<li>Azure DevOps</li>
+	<li>Jenkins</li>
+	<li>FMOD</li>
+	<li>Articy</li>
+	<li>Miro</li>
+	<li>Clickup</li>
+	<li>Node and Flow Canvas</li></p>
+  </div>
 
+</div>
 ## Involvement Summary
-Primarily worked on the Enemy system and their behavior using Node Canvas & Flow Canvas. Some audio, feature, VFX, UI backend implementation whose asset came from various departments. Worked with our Design team to create progression & upgrade system for the game. Also worked on the Data persistence (Save/Load) and Control Remapping interfaces.
+I contributed across multiple areas of development, with a primary focus on building the Enemy System and behavior design using Node Canvas & Flow Canvas. I also supported features such as audio, VFX, UI backend, and cross-department asset integration. In collaboration with the Design team, I helped create progression and upgrade systems, while also implementing key gameplay features like data persistence (save/load) and control remapping interfaces.
 
 
 ### Feature implementation
-- Enemy System and Behevior using Node Canvas and Flow Canvas - I was responsible with the *Enemy System* and their behaviour for each variants. I am capable 
-- SFX/BGM implementation
-- Feature implementation
-- Level Progression and Upgrades System
-- UI Backend
-- Data Persistence
-- Control Remapping via Rewired
-- VFX Implementation
-- Documentation for all features
+- **Enemy System and Behevior using Node Canvas and Flow** - I was responsible for developing the Enemy System and defining behaviors for each variant, ensuring diverse and engaging gameplay challenges. I also created custom nodes and tasks to support the development process, providing designers and developers with flexible tools to expand and refine enemy interactions.
+- **SFX/BGM implementation** - I was one of the responsible for implementing some of the audio assets to the game with the help of our team of talented audio designers. Directly communicating with them to be more efficient and reduce back and forth.
+- **Level Progression and Upgrades System** - I designed and implemented tools and systems that enabled our designers to create fun, engaging player experiences through level progression and upgrades. By building in balancing features and modular structures, I helped streamline workflows, support collaboration across teams, and ensure the game remained scalable and enjoyable for players.
+- **UI Backend** - I implemented key UI functionalities in close collaboration with our design team, ensuring that the interface was both functional and aligned with the overall player experience.
+- **Data Persistence** - I developed a scalable and fully integrated Save/Load system that supports all game features. The system leverages JSON with optional encryption and includes built-in backup measures to ensure data integrity and protect against file corruption.
+- **Control Remapping via Rewired** I setup an interface to tap on the Rewired Asset for a customizing player controls with ease.
+- **VFX Implementation** - I supported our VFX team to do a cross-department asset integration.
 
-
-### Tools for Other departments
-
+# Definition of doneness
+As a team, we helped define clear “done” criteria for tasks to maintain quality and manage expectations across the team. This involved setting up automated tests, writing documentation (API references and tool READMEs), collaborating early with the design team for alignment, and supporting QA testing to ensure smooth delivery.
+# Prototyping
+I was one of the engineers focused on bulding a prototype with close collaboration with our designers, to identify the type of gameplay we're looking for.
 
 # Game Information
 BARHEIM is a single-player, 3D Time Management Tower Defense where players experience the chaos of mixing drinks and maintaining a bar while defending themselves from thirsty Vikings! Become the starry-eyed bartender of the finest tavern in the nine realms—BARHEIM! Learn different combinations of brews. Acquire device upgrades to tip the scales and survive even the wildest rushes of Viking hordes! Load your crafted drinks onto the Brewcannøn and defend yourself from charging armies commanded by the vengeful Queen Yrsa and her chieftains.
@@ -58,21 +62,36 @@ BARHEIM is a single-player, 3D Time Management Tower Defense where players exper
 > [Dusk Wave Arts website] [dwa-link]
 
 # Mixing Maiden!
+&nbsp;<video loop="true" muted="true" autoplay="true">
+	<source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2980970/extras/0d6912e3f83783c6cc8b04e942b78447.webm">
+</video> <br/>
 Serve a variety of mixed, shaken, and chilled brews to fulfill orders and thwart the attacks of your Viking patrons!
 
 # Brewcannøn Blaster
+&nbsp;<video loop="true" muted="true" autoplay="true">
+	<source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2980970/extras/28bf1a092572e4a894aa37754234eb19.webm">
+</video> <br/>
 Take aim and blast orders from the Brewcannøn to halt vicious Vikings and their imposing war chiefs.
 
 # Divine Favour
+&nbsp;<video loop="true" muted="true" autoplay="true">
+	<source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2980970/extras/f3d8fb9f2012de3c63638e6aa4d1e17b.webm">
+</video> <br/>
 Successfully defend Barheim from Queen Yrsa’s forces and receive useful upgrades to the tavern and its many contraptions.
 
 # Contraption Queen
+&nbsp;<video loop="true" muted="true" autoplay="true">
+	<source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2980970/extras/c9e5f089bad0f5278df5289a3b7a56cd.webm">
+</video> <br/>
 Work with each of the devices at your disposal! If they’re moving too slow for your speed, slap ‘em around a ‘lil and they’ll push out your concoction quicker!
 
 # War Chief Mayhem
+&nbsp;<video loop="true" muted="true" autoplay="true">
+	<source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2980970/extras/a0038254cb886cfadb785608003b979c.webm">
+</video> <br/>
 Keep your menu close and mix together tasty orders to take down each of Queen Yrsa’s war chiefs!
 
-Serve Responsively!
+**Serve Responsively!**
 
 [steam-link]: https://store.steampowered.com/app/2980970/BARHEIM/
 [dwa-link]: https://duskwavearts.com/barheim/

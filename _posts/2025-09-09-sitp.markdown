@@ -24,6 +24,7 @@ role: "Senior Game Engineer"
 
 ## Tools
 - Unity3D
+- Game Creator 2
 - PlasticSCM (UVCS)
 - Azure DevOps
 - Jenkins
@@ -37,16 +38,18 @@ I was accountable for the implementation of features, tools for other department
 
 ### Feature implementation and Reusable Codes
 - Data Persistence - I implemented a full Save/Load system that is scalable and fully integrated with of the features of the game. It uses JSON as its file type and have an option for encryption. It also has some backup systems in case of file corruption.	
+- Instructions for Game Creator 2 - I am capable of writing Game Creator 2 Instructions that helped Designers and other departments to create content for the game.
 - Escalator system - I implemented a fully working escalator in the game that's can be used by NPCs. Escalators are a visual narrative tool that will force Characters (both player controlled and NPC) to be moved from a start point to an end point. 
 - Navmesh links Implementation - For player & NPC to be able to jump from one navmesh to another.
-- Feature debugs - logs and test options for all departments. 
+- Feature debugs - Logs and test options for all features used by all other departments.
+- Project Cleanups and Optimization - I also did some project cleanups and optimization mid-productions to make sure everything is smooth as possible.
 - Documentation - I added a fully detailed documentation for each features I create. This enabled other engineers to diagnose the features themselves without my help.
 	
 ### Tools for Other Departments
 I have added several tools in Unity engine to help ease the development process and make other department's work much more efficient.
 
 ### Audio implementation with FMOD
-I lead the implementation of SFX/BGM/AMB with the help and guidance of our own Audio Designers that created such masterpieces with FMOD.
+I lead the implementation of SFX/BGM/AMB with the help and guidance of our own Audio Designers that created such masterpieces with FMOD implementation.
 - Train System SFX - Implemented a SFX system that will hookup with the train system to provide an audio feedback from arriving, departing to opening and closing doors
 - UI SFX implementation
 - Environment SFX implementation

@@ -33,12 +33,23 @@ role: "Senior Game Engineer"
 - Clickup
 
 ## Involvement Summary
+Primarily worked on the Enemy system and their behavior using Node Canvas & Flow Canvas. Some audio, feature, VFX, UI backend implementation whose asset came from various departments. Worked with our Design team to create progression & upgrade system for the game. Also worked on the Data persistence (Save/Load) and Control Remapping interfaces.
 
-### Feature implementation and Reusable Codes
+
+### Feature implementation
+- Enemy System and Behevior using Node Canvas and Flow Canvas - I was responsible with the *Enemy System* and their behaviour for each variants. I am capable 
+- SFX/BGM implementation
+- Feature implementation
+- Level Progression and Upgrades System
+- UI Backend
+- Data Persistence
+- Control Remapping via Rewired
+- VFX Implementation
+- Documentation for all features
+
 
 ### Tools for Other departments
-- I have added several tools to help ease the development process and make other department's work much more efficient.
-- 
+
 
 # Game Information
 BARHEIM is a single-player, 3D Time Management Tower Defense where players experience the chaos of mixing drinks and maintaining a bar while defending themselves from thirsty Vikings! Become the starry-eyed bartender of the finest tavern in the nine realms—BARHEIM! Learn different combinations of brews. Acquire device upgrades to tip the scales and survive even the wildest rushes of Viking hordes! Load your crafted drinks onto the Brewcannøn and defend yourself from charging armies commanded by the vengeful Queen Yrsa and her chieftains.

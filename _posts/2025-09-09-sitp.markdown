@@ -67,29 +67,40 @@ I helped the Designers implement story content and cutscenes as clean as possibl
 # Game Information
 
 Just as Faye and Rich’s painful memories resurface, the two friends are ensnared in the distorted corridors of a decrepit subway station beneath a city still foreign to Faye. To find any path through, they need to decipher all that they have so desperately tried to forget.
+![Image](/games/2025/09/09/sitploop.jpg)
 
 > Check it out on [Steam][steam-link] &
 > [Dusk Wave Arts website] [dwa-link]
 
 # Illustration and Reflection
-![Image](/games/2025/09/09/sitp3.gif)
+&nbsp;<video loop="true" muted="true" autoplay="true">
+	<source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2980980/extras/fa590e2cadf2d4a0deb1f67336d1d6b5.webm?">
+</video> <br/>
 Discover and illustrate meaningful objects and people to decipher Faye’s history.
 
 # Living Memories
-![Image](/games/2025/09/09/sitp4.gif)
+&nbsp;<video loop="true" muted="true" autoplay="true">
+	<source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2980980/extras/e49597bc58b68d27b5fbf98f2341f9a3.webm">
+</video> <br/>
 Explore living memories of Faye and Rich’s past as they manifest around the stations.
 
 # Choice and Change
-![Image](/games/2025/09/09/sitp.gif)
+&nbsp;<video loop="true" muted="true" autoplay="true">
+	<source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2980980/extras/347c0cf005c50e675550a9b81971667e.webm">
+</video> <br/>
 
 Forge a new relationship between Faye and Rich as they collide with their hidden traumas and recent frictions.
 
 # Dissipation of Agency
-![Image](/games/2025/09/09/sitp5.gif)
+&nbsp;<video loop="true" muted="true" autoplay="true">
+	<source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2980980/extras/c7ae2799c7facf810e87226f95c9df22.webm">
+</video> <br/>
 Navigate Faye’s anxieties as distance between her and Rich propagates greater dangers around the station.
 
 # Close-up Clues
-![Image](/games/2025/09/09/sitp2.gif)
+&nbsp;<video loop="true" muted="true" autoplay="true">
+	<source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2980980/extras/22b08e63eed61416f5b9d1e81a980d52.webm">
+</video> <br/>
 
 Interact with objects and structures more intimately to decipher their connection to Faye’s past, or the distortion of the station.
 

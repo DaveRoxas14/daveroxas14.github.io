@@ -1,0 +1,200 @@
+<style>
+/* =============================================
+   Game Portfolio Post — Dark Theme
+   Scoped via .post-content; only loads on
+   pages that include this file.
+   ============================================= */
+
+body { background-color: #111 !important; }
+
+.bar-header {
+  background-color: rgba(17,17,17,0.97) !important;
+  box-shadow: 0 1px 0 rgba(255,255,255,0.06) !important;
+}
+.bar-header .icon-search,
+.bar-header .icon-menu { fill: #fff !important; }
+.bar-header .logo a,
+.bar-header .version { color: #fff !important; }
+
+.post-content p,
+.post-content li { color: #ccc !important; }
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4 { color: #fff; }
+.post-content a { color: #ff0a16; }
+.post-content a:hover { color: #ff5560; }
+.post-content blockquote { border-left-color: #2a2a2a; }
+.post-content blockquote p { color: #555 !important; }
+.post-content hr { border-color: #222 !important; }
+
+/* See Also sidebar */
+.see-also h2 { color: #fff; border-bottom-color: #252525; }
+.see-also ul li a { color: #bbb; }
+.see-also ul li a:hover { color: #ff0a16; }
+.see-also ul li h3 { color: #bbb; }
+
+/* Share section */
+.share { border-top-color: #252525 !important; }
+.share h3 { color: #fff; }
+.share .icon { fill: #555; }
+.share .icon-twitter:hover { fill: #1da1f3; }
+.share .icon-facebook:hover { fill: #3b5998; }
+
+footer { background: #111 !important; border-top-color: #222 !important; }
+footer p { color: #555 !important; }
+footer a { color: #555 !important; fill: #555 !important; }
+
+/* ---- CTA Button Bar ---- */
+.post-cta-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-width: 50rem;
+  margin: 0 auto 28px;
+  padding: 0 20px;
+}
+.cta-btn {
+  display: inline-block;
+  padding: 9px 20px;
+  border-radius: 5px;
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-decoration: none !important;
+  transition: background 0.18s, color 0.18s, border-color 0.18s;
+}
+.cta-primary {
+  background: #ff0a16;
+  color: #fff !important;
+  border: 2px solid #ff0a16;
+}
+.cta-primary:hover {
+  background: #cc0811 !important;
+  border-color: #cc0811 !important;
+  color: #fff !important;
+}
+.cta-secondary {
+  background: transparent;
+  color: #ff0a16 !important;
+  border: 2px solid #ff0a16;
+}
+.cta-secondary:hover {
+  background: #ff0a16 !important;
+  color: #fff !important;
+}
+
+/* ---- Meta Card (Role + Tools) ---- */
+.post-meta-card {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 50rem;
+  margin: 0 auto 36px;
+  border: 1px solid #222;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #1a1a1a;
+}
+.meta-col { flex: 1 1 160px; padding: 18px 22px; }
+.meta-col + .meta-col { border-left: 1px solid #222; }
+
+.meta-label {
+  font-size: 0.62rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.14em !important;
+  text-transform: uppercase !important;
+  color: #ff0a16 !important;
+  margin: 0 0 10px !important;
+  padding: 0 !important;
+  line-height: 1.2 !important;
+}
+.meta-col > p {
+  margin: 0 !important;
+  padding: 0 !important;
+  color: #e0e0e0 !important;
+  font-size: 0.95rem !important;
+  line-height: 1.6 !important;
+}
+.tool-list {
+  list-style: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 5px !important;
+}
+.tool-list li {
+  padding: 2px 9px !important;
+  background: #212121 !important;
+  border: 1px solid #2e2e2e !important;
+  border-radius: 3px !important;
+  font-size: 0.78rem !important;
+  color: #aaa !important;
+  line-height: 1.9 !important;
+}
+
+/* ---- Section Label ---- */
+.section-label {
+  display: block;
+  font-size: 1.75rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.03em !important;
+  text-transform: uppercase !important;
+  color: #ff0a16 !important;
+  padding: 0 20px !important;
+  margin: 3.75rem auto 0 !important;
+  max-width: 50rem;
+  line-height: 1.4 !important;
+}
+@media (min-width: 37.5rem) {
+  .section-label { font-size: 2.3125rem !important; }
+}
+
+/* ---- Section Divider ---- */
+.section-divider {
+  border: none !important;
+  border-top: 1px solid #222 !important;
+  margin: 52px auto !important;
+  max-width: 50rem;
+}
+
+/* ---- Video Sections ---- */
+.post-video {
+  max-width: 50rem;
+  margin: 0 auto 36px;
+  padding: 0 20px;
+}
+.post-video video {
+  width: 100%;
+  border-radius: 6px;
+  display: block;
+  background: #000;
+}
+.video-title {
+  font-size: 0.72rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.12em !important;
+  text-transform: uppercase !important;
+  color: #666 !important;
+  margin: 0 0 8px !important;
+  padding: 0 !important;
+  line-height: 1.2 !important;
+}
+.video-caption {
+  text-align: center;
+  font-size: 0.85rem !important;
+  color: #555 !important;
+  margin-top: 8px !important;
+  margin-bottom: 0 !important;
+  padding: 0 !important;
+  font-style: italic;
+  line-height: 1.5 !important;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .meta-col + .meta-col { border-left: none; border-top: 1px solid #222; }
+  .post-cta-bar { flex-direction: column; }
+  .cta-btn { text-align: center; }
+}
+</style>

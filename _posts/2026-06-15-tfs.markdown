@@ -1,0 +1,93 @@
+---
+layout: post
+title:  "The Final Stand: Zombie Siege"
+subtitle: "Fight through endless waves of zombies, earn cash, unlock powerful weapons, and upgrade your survivor as the undead become stronger with every wave."
+description: Fight through endless waves of zombies, earn cash, unlock powerful weapons, and upgrade your survivor as the undead become stronger with every wave.
+image: /games/2026/06/15/TFS1.webp
+date:   2026-06-15 15:08:22 +0800
+categories: games
+category: games
+tags:
+- Survival
+- Zombies
+author: "Ranida Games"
+paginate: false
+role: "Lua Scripter"
+---
+
+{% include post-game-styles.html %}
+
+<div class="post-cta-bar">
+  <a href="https://www.roblox.com/games/125114706058365/The-Final-Stand-Zombie-Siege" class="cta-btn cta-primary">Play on Roblox</a>
+</div>
+
+<div class="post-meta-card">
+  <div class="meta-col">
+    <h3 class="meta-label">Role</h3>
+    <p>{{ page.role }}</p>
+  </div>
+  <div class="meta-col">
+    <h3 class="meta-label">Tools &amp; Tech</h3>
+    <ul class="tool-list">
+      <li>Roblox Studio</li>
+      <li>Luau</li>
+      <li>Rojo</li>
+    </ul>
+  </div>
+</div>
+
+<span class="section-label">My Contribution</span>
+
+Led the migration off ACS to a Knit/Component + FastCast firearm framework; built the melee weapon system, RPG launcher, roguelite Lightning/Lifesteal power-ups, the server-side ZombieManager, full mobile control support, and player-count stat scaling.
+
+### Feature Implementation
+
+- **New weapon framework migration** — drove the removal of the third-party ACS gun system and re-built guns on a `FirearmComponent` (Knit Component) + FastCastRedux stack; re-added zombie/wave managers and all systems on the new base.
+- **Firearm content & mechanics** — added a large weapon roster (Glock19, Desert Eagle, Zastava M92, AKM/AKM-S, AKS-74U/74Un/47U-X, M249 PARA, Vector .45, Thompson, FAMAS, Lewis, SVD, RSASS, Remington 700/870, SPAS-12, Sawed-Off, M134 Minigun, P90, etc.); hipfire + separate hipfire spread, switch-weapons-while-reloading, friendly-fire toggle, KitList distribution.
+- **Sniper scope system** — overhaul with 2-stage zoom, zoom-level hotkey, reticle preloading (fixed first-aim asset-streaming delay).
+- **RPG / launcher system** — `Class="Launcher"` branch: AoE splash with distance falloff, configurable damage/radius/speed/mag/reload, explosion SFX, dedup by cast id.
+- **Melee weapon system** — dedicated `MeleeComponent` (tag `"Melee"`), server-authoritative hit query (reach, arc, line-of-sight, point-blank handling, cooldown), combos up to 10, finisher multiplier, Machete + Axe, camera shake, hit VFX, audio; melee routed through `ToolService:Damage` so it inherits all roguelite perks. Later **hit-query hardening** (fixed backpack-swing exploit, broad-phase nearest-first target selection).
+- **Roguelite Tier-3 power-ups** — **Lightning Strike** (chance-scaled AoE + stun, brand-new stun mechanic), **Lifesteal** (dual-dial chance + heal scaling, added `GetStatLevel`). Both wired in `ToolService:Damage`.
+- **ZombieManager** — server-side zombie lifecycle (spawn-in-radius, track, death/despawn), per-type attribute-backed configs (Normal/Fast/Exploding/Boss with Health/Speed/Damage/Coins/Exp/CrateDrop), model variants; pathfinding improvements (waypoint staleness fix, pause-before-next-point, boss waypoint reachability).
+- **Mobile support** — root-cause fix for missing movement stick (forked PlayerModule `SelectTouchModule` fallback + TouchJump/CameraController crash fixes), custom on-screen controls (Shoot/Aim/Reload/Sprint/Swing), drag-to-look-while-shooting (COD-mobile style), hold-to-autofire for semis, ADS toggle-on-mobile/hold-on-PC, center-crosshair fire fix, auto-run QoL.
+- **Player-count base-stat scaling** — boosts base damage/HP/structure-HP for small groups with steep falloff, per-wave evaluation, fully configurable.
+- **Custom health bar UI** + disabled default Roblox health bar; buff icons for HP-affecting powerups.
+- **Loading screen + Game Over screen** — fake loading screen (once on join), game-over summary (cash/kills/wave) with kill-crediting and per-game cash accumulator wiring.
+- **Disabled downed state** — replaced inherited ACS downed/revive with standard death+10s respawn, toggleable via attribute.
+- **Ammo / ammo-crate system** — ammo-drop crates, refresh-ammo fixes, drop-duration/chance tuning.
+- **Per-weapon ADS sensitivity** — all guns read `AimSettings.MouseSensitiveP` (was dead config).
+
+### Notable fixes & involvements
+- R6→R15 conversion estimate doc (decision: stay R6), gun-equip-after-spawn fixes, luck/muzzle fixes, in-game upgrade roll optimization, name-tag level/wave display, rope-teleport script, season challenge fixes.
+
+<hr class="section-divider">
+
+<span class="section-label">About the Game</span>
+
+Fight through endless waves of zombies, earn cash, unlock powerful weapons, and upgrade your survivor as the undead become stronger with every wave.
+
+**UPDATE:** Welcome mobile players!
+
+![Image](/games/2026/06/15/TFS2.webp)
+
+### Features
+
+- Unlock and collect a growing arsenal of weapons
+- Fight with firearms and powerful melee weapons
+- Roll rare weapons from the Black Market
+- Upgrade your survivor with permanent perks
+- Level up and become stronger every match
+- Team up with other players to defend the base
+- Face special infected and powerful bosses
+- Survive endless waves and set new records
+
+### How to Play
+
+- Protect the Entrance at all costs
+- Eliminate zombies before they reach the base
+- Earn cash from kills and wave clears
+- Purchase new weapons and upgrades
+- Choose powerful upgrades between waves
+- Work together to survive as long as possible
+
+Every wave gets harder. Bosses appear every 5 waves. How long can your team survive?

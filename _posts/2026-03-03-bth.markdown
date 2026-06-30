@@ -1,0 +1,85 @@
+---
+layout: post
+title:  "Beach Treasure Hunt"
+subtitle: "Search for hidden treasures with your sand sifter, shovel, and treasure detector"
+description: Welcome to Beach Treasure Hunt! Search for hidden treasures with your sand sifter, shovel, and treasure detector
+image: /games/2026/03/03/BTH1.webp
+date:   2026-03-03 15:08:22 +0800
+categories: games
+category: games
+tags:
+- TreasureHunt
+- Sandbox
+author: "Ranida Games"
+paginate: false
+role: "Lua Scripter"
+---
+
+{% include post-game-styles.html %}
+
+<div class="post-cta-bar">
+  <a href="https://www.roblox.com/games/125313211442808/Beach-Treasure-Hunt" class="cta-btn cta-primary">Play on Roblox</a>
+</div>
+
+<div class="post-meta-card">
+  <div class="meta-col">
+    <h3 class="meta-label">Role</h3>
+    <p>{{ page.role }}</p>
+  </div>
+  <div class="meta-col">
+    <h3 class="meta-label">Tools &amp; Tech</h3>
+    <ul class="tool-list">
+      <li>Roblox Studio</li>
+      <li>Luau</li>
+      <li>Rojo</li>
+    </ul>
+  </div>
+</div>
+
+<span class="section-label">My Contribution</span>
+
+Built the core tool system (pickaxe/shovel/sifter), procedural region-aware chunk terrain, treasure spawning & detection (SonarService), a cosmetics/Style system with DataStore persistence, custom hotbar/inventory UI, and a scalable loading-screen framework.
+
+### Feature Implementation
+
+- **Tool system (Pickaxe / Shovel / Sifter / Treasure Detector)** — full ToolManager server + client (`HolsterManager`/`ToolClient`), tool equip/holster sync, durability with a custom item class, tool efficiency & strength stats, tool templates, and `ToolManagerUtility` migration/refactor (O(n)→O(1) config lookups, data-driven starter-tool loop, memory-leak fixes).
+- **Tool DataStore persistence** — `PlayerEquippedToolsService`: tools re-equip on rejoin; load/save with retry + concurrent-save guards; restore-on-join with validation.
+- **Tool camera controller** — third-person lock-center camera that auto-activates on Pickaxe/Shovel, releases for overlay GUIs; fully decoupled (zero edits to existing files).
+- **Procedural chunk generation** — region-aware chunk generation, per-region configs, teleport between regions, transition robustness (timeouts, connection cleanup, status visibility), attribute-driven block/chunk sizing, "load chunks only on first visit" option, layer configuration & restrictions.
+- **Treasure systems** — TreasureManager/TreasureSpawner (rolling, spawn, location params), salvageable/non-salvageable treasure pools, rarity-weight Google Sheets integration, default-model fallback handling, and the **SetupTreasureModel Studio plugin** that automates treasure model primary-part setup.
+- **Treasure Detector → SonarService** — extracted sonar pulse into a shared singleton (lazy init, persistent 31-highlight pool, idempotent API); detector "nuked" as a standalone tool, ability folded innately into Pickaxe/Shovel.
+- **VFX system** — VFXPool, server+client VFX manager, client→server VFX sync, pickaxe/shovel hit debris, sifting trail/smoke VFX, **TreasureReaction** (rewrote from 2D particles to a 3D floating-model animation with rarity scaling + optional player-follow + rate-limit anti-exploit).
+- **Cosmetics / Style system** — `StyleConfig` (Google Sheets ingestion), `PlayerCosmeticsService` (server-authoritative equip/persist for Auras & Titles), client mirror, rarity-colored chat name tags, community-join aura reward; Style GUI (tabs, layout, interaction fixes).
+- **Loading screen system** — `LoadingManager` weighted task registry (2-line extensibility), loading screen controller with spinner + percentage lerp, respawn soft-lock fix, 30s/90s timeout fallback, loading tips, debug toggle.
+- **Custom hotbar** — bespoke hotbar manager + slots replacing default tool bar.
+- **Inventory/Item GUI** — ItemGui, item preview, tool-stats display, equip/unequip, inventory tab arrangement.
+- **NPC interaction** — camera-tween cutscene, dialogue typewriter effect, skipping, attribute-driven NPC name/dialogue; PlainNpc scripts.
+- **LocalAnnouncement system** — single-player treasure-find notifications, rarity routing (epic/legendary/mythic special frames), money/crate helpers, nil-guards.
+- **Level-up feedback** — level-up SFX + confetti VFX + animated UI message.
+- **Starter sifter new-player flow** — RustySandSifter with unlimited durability, auto-equip on first join, full DataStore-wipe debug tool.
+
+### Notable fixes & involvements
+- Settings migration (chunk/treasure tuning exposed to `Settings`/attributes), debug-mode gating (DebugGui destroy, hotkey wrapping).
+- StarterPack button rewiring, money-on-respawn fix, coin UI nil fix, sifter VFX connection-leak fix.
+- Damage logic + layer-health spreadsheet column, diggable-area spawn fixes.
+
+<hr class="section-divider">
+
+<span class="section-label">About the Game</span>
+
+Welcome to Beach Treasure Hunt! Search for hidden treasures with your sand sifter, shovel, and treasure detector. Salvage what you find and craft epic pickaxes, shovels, and detector equipment. Complete awesome quests to earn even more rewards for your incredibly fun treasure hunt at Lighthouse Beach!
+
+**Treasure Chest Update!!**
+
+![Image](/games/2026/03/03/BTH2.webp)
+
+### Features
+
+- Sift through beautiful sand in search of hidden treasure
+- Dig massive holes to uncover the rarest loot buried beneath the sand
+- Sell your treasures and materials to earn tons of cash
+- Upgrade everything in your toolbox to dig deeper for the rarest treasure
+- Salvage treasure into materials and craft powerful equipment and tools
+- Complete incredible quests to earn even more loot
+- Collect crabs to get a speed boost while sifting on the beach
+- Play with friends — race around the beach to find the best treasure before your friends do

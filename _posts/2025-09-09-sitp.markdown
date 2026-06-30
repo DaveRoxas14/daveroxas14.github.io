@@ -8,102 +8,119 @@ image: /games/2025/09/09/sitp2.png
 date:   2025-09-09 15:08:22 +0800
 categories: games
 category: games
-tags: 
+tags:
 - psychological
 - story
 author: "Dusk Wave Arts"
 paginate: false
 role: "Senior Game Engineer"
 ---
-> Check out on [Steam][steam-link] &
-> [Trailer on YouTube] [yt-link]
-<div style="display: flex; justify-content: space-between;">
 
-  <div style="flex: 1; padding-right: 20px;">
-    <h2>Role</h2>
-	<p>{{page.role}}</p>
-  </div>
+{% include post-game-styles.html %}
 
-  <div style="flex: 1; padding-left: 20px;">
-    <h2>Tools</h2>
-    <p><li>Unity3D</li>
-	<li>Game Creator 2</li>
-	<li>PlasticSCM (UVCS)</li>
-	<li>Azure DevOps</li>
-	<li>Jenkins</li>
-	<li>FMOD</li>
-	<li>Articy</li>
-	<li>Miro</li>
-	<li>Coda</li></p>
-  </div>
-
+<div class="post-cta-bar">
+  <a href="https://store.steampowered.com/app/2980980/Stuck_in_the_Present/" class="cta-btn cta-primary">View on Steam</a>
+  <a href="https://youtu.be/IMNZuznmC4M" class="cta-btn cta-secondary">Watch Trailer</a>
 </div>
-## Involvement Summary
+
+<div class="post-meta-card">
+  <div class="meta-col">
+    <h3 class="meta-label">Role</h3>
+    <p>{{ page.role }}</p>
+  </div>
+  <div class="meta-col">
+    <h3 class="meta-label">Tools &amp; Tech</h3>
+    <ul class="tool-list">
+      <li>Unity3D</li>
+      <li>Game Creator 2</li>
+      <li>PlasticSCM (UVCS)</li>
+      <li>Azure DevOps</li>
+      <li>Jenkins</li>
+      <li>FMOD</li>
+      <li>Articy</li>
+      <li>Miro</li>
+      <li>Coda</li>
+    </ul>
+  </div>
+</div>
+
+<span class="section-label">My Contribution</span>
+
 I was accountable for the implementation of features, tools for other departments, audio/SFX implementations, Save/Load system and content application.
 
-### Feature implementation and Reusable Codes
-- **Data Persistence** - I implemented a full Save/Load system that is scalable and fully integrated with of the features of the game. It uses JSON as its file type and have an option for encryption. It also has some backup systems in case of file corruption.	
-- **Instructions for Game Creator 2** - I am capable of writing Game Creator 2 Instructions that helped Designers and other departments to create content for the game.
-- **Escalator system** - I implemented a fully working escalator in the game that's can be used by NPCs. Escalators are a visual narrative tool that will force Characters (both player controlled and NPC) to be moved from a start point to an end point. 
-- **Navmesh links Implementation** - For player & NPC to be able to jump from one navmesh to another.
-- **Feature debugs** - Logs and test options for all features used by all other departments.
-- **Project Cleanups and Optimization** - I also did some project cleanups and optimization mid-productions to make sure everything is smooth as possible.
-- **Documentation** - I added a fully detailed documentation for each features I create. This enabled other engineers to diagnose the features themselves without my help.
-	
+### Feature Implementation and Reusable Code
+
+- **Data Persistence** — I implemented a full Save/Load system that is scalable and fully integrated with all of the features of the game. It uses JSON as its file type and has an option for encryption. It also has some backup systems in case of file corruption.
+- **Instructions for Game Creator 2** — I wrote Game Creator 2 Instructions that helped Designers and other departments create content for the game.
+- **Escalator System** — I implemented a fully working escalator in the game that can be used by NPCs. Escalators are a visual narrative tool that forces Characters (both player-controlled and NPC) to move from a start point to an end point.
+- **Navmesh Links Implementation** — Enabled player and NPC navigation to jump from one navmesh to another.
+- **Feature Debugs** — Logs and test options for all features used by all other departments.
+- **Project Cleanups and Optimization** — Project cleanups and optimization mid-production to keep everything running smoothly.
+- **Documentation** — Fully detailed documentation for each feature I created, enabling other engineers to diagnose features independently.
+
 ### Tools for Other Departments
-I have added several tools in Unity engine to help ease the development process and make other department's work much more efficient.
 
-### Audio implementation with FMOD
-I lead the implementation of SFX/BGM/AMB with the help and guidance of our own Audio Designers that created such masterpieces with FMOD implementation.
-- Train System SFX - Implemented a SFX system that will hookup with the train system to provide an audio feedback from arriving, departing to opening and closing doors
-- UI SFX implementation
-- Environment SFX implementation
-- Cutscene BGM Implementation
+I added several tools in Unity to ease the development process and make other departments' workflows more efficient.
 
-### Content implementation
-I helped the Designers implement story content and cutscenes as clean as possible for easier debug. I also made the process easier and added QoL changes in the provided tools.
+### Audio Implementation with FMOD
 
+I led the implementation of SFX/BGM/AMB with the help and guidance of our Audio Designers.
 
-# Game Information
+- **Train System SFX** — A SFX system hooked up to the train system providing audio feedback for arriving, departing, and door events.
+- **UI SFX** — UI sound effect implementation.
+- **Environment SFX** — Environmental ambient sound implementation.
+- **Cutscene BGM** — Background music implementation for cutscenes.
 
-Just as Faye and Rich’s painful memories resurface, the two friends are ensnared in the distorted corridors of a decrepit subway station beneath a city still foreign to Faye. To find any path through, they need to decipher all that they have so desperately tried to forget.
+### Content Implementation
+
+I helped Designers implement story content and cutscenes cleanly for easier debugging, and added QoL changes in the provided tools.
+
+<hr class="section-divider">
+
+<span class="section-label">About the Game</span>
+
+Just as Faye and Rich's painful memories resurface, the two friends are ensnared in the distorted corridors of a decrepit subway station beneath a city still foreign to Faye. To find any path through, they need to decipher all that they have so desperately tried to forget.
+
 ![Image](/games/2025/09/09/sitploop.jpg)
 
-> Check it out on [Steam][steam-link] &
-> [Dusk Wave Arts website] [dwa-link]
+<div class="post-video">
+  <h4 class="video-title">Illustration and Reflection</h4>
+  <video loop muted autoplay playsinline>
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2980980/extras/fa590e2cadf2d4a0deb1f67336d1d6b5.webm">
+  </video>
+  <p class="video-caption">Discover and illustrate meaningful objects and people to decipher Faye's history.</p>
+</div>
 
-# Illustration and Reflection
-&nbsp;<video loop="true" muted="true" autoplay="true">
-	<source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2980980/extras/fa590e2cadf2d4a0deb1f67336d1d6b5.webm?">
-</video> <br/>
-Discover and illustrate meaningful objects and people to decipher Faye’s history.
+<div class="post-video">
+  <h4 class="video-title">Living Memories</h4>
+  <video loop muted autoplay playsinline>
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2980980/extras/e49597bc58b68d27b5fbf98f2341f9a3.webm">
+  </video>
+  <p class="video-caption">Explore living memories of Faye and Rich's past as they manifest around the stations.</p>
+</div>
 
-# Living Memories
-&nbsp;<video loop="true" muted="true" autoplay="true">
-	<source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2980980/extras/e49597bc58b68d27b5fbf98f2341f9a3.webm">
-</video> <br/>
-Explore living memories of Faye and Rich’s past as they manifest around the stations.
+<div class="post-video">
+  <h4 class="video-title">Choice and Change</h4>
+  <video loop muted autoplay playsinline>
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2980980/extras/347c0cf005c50e675550a9b81971667e.webm">
+  </video>
+  <p class="video-caption">Forge a new relationship between Faye and Rich as they collide with their hidden traumas and recent frictions.</p>
+</div>
 
-# Choice and Change
-&nbsp;<video loop="true" muted="true" autoplay="true">
-	<source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2980980/extras/347c0cf005c50e675550a9b81971667e.webm">
-</video> <br/>
+<div class="post-video">
+  <h4 class="video-title">Dissipation of Agency</h4>
+  <video loop muted autoplay playsinline>
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2980980/extras/c7ae2799c7facf810e87226f95c9df22.webm">
+  </video>
+  <p class="video-caption">Navigate Faye's anxieties as distance between her and Rich propagates greater dangers around the station.</p>
+</div>
 
-Forge a new relationship between Faye and Rich as they collide with their hidden traumas and recent frictions.
+<div class="post-video">
+  <h4 class="video-title">Close-up Clues</h4>
+  <video loop muted autoplay playsinline>
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2980980/extras/22b08e63eed61416f5b9d1e81a980d52.webm">
+  </video>
+  <p class="video-caption">Interact with objects and structures more intimately to decipher their connection to Faye's past, or the distortion of the station.</p>
+</div>
 
-# Dissipation of Agency
-&nbsp;<video loop="true" muted="true" autoplay="true">
-	<source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2980980/extras/c7ae2799c7facf810e87226f95c9df22.webm">
-</video> <br/>
-Navigate Faye’s anxieties as distance between her and Rich propagates greater dangers around the station.
-
-# Close-up Clues
-&nbsp;<video loop="true" muted="true" autoplay="true">
-	<source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2980980/extras/22b08e63eed61416f5b9d1e81a980d52.webm">
-</video> <br/>
-
-Interact with objects and structures more intimately to decipher their connection to Faye’s past, or the distortion of the station.
-
-[steam-link]: https://store.steampowered.com/app/2980980/Stuck_in_the_Present/
-[dwa-link]: https://duskwavearts.com/
-[yt-link]: https://youtu.be/IMNZuznmC4M
+Also available at the [Dusk Wave Arts website](https://duskwavearts.com/).
